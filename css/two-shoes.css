@@ -1,0 +1,154 @@
+.two-shoes {
+    width: 1170px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    z-index: 60;
+    margin-top: -60px;
+}
+
+.shoes-left,
+.shoes-right {
+    float: left;
+}
+
+.two-shoes::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.collect-left {
+    position: absolute;
+    z-index: 80;
+    left: 38px;
+    top: 44px;
+}
+
+.collect-left h1 {
+    color: #fff;
+    font-size: 51px;
+    font-weight: bold;
+    line-height: 49px;
+}
+
+.links {
+    position: absolute;
+    bottom: 32px;
+    left: 37px;
+    z-index: 99;
+}
+
+.links>div {
+    float: left;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.links::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.links-arrow {
+    display: inline-block;
+    display: inline-block;
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    transform: rotate(-45deg);
+    padding: 3px;
+    margin-top: 4px;
+}
+
+.f-left {
+    float: left;
+}
+
+.links>div::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.links>div p {
+    margin-right: 3px;
+}
+
+.links>.links-1 {
+    margin-right: 15px;
+}
+
+.links>div p:hover {
+    color: red;
+}
+
+.collect-right {
+    position: absolute;
+    z-index: 99;
+    top: 44px;
+    right: 38px;
+}
+.collect-right h1 {
+    color: #fff;
+    font-size: 51px;
+    font-weight: bold;
+    line-height: 49px;
+}
+.links-right{
+    position: absolute;
+    z-index: 99;
+    left: 638px;
+    bottom: 32px;
+}
+.links-right div{
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.links-right div p {
+    margin-right: 5px;
+}
+.links-right div p:hover{
+    color: red;
+}
+.links-lines1{
+    width: 10px;
+    height: 100px;
+    background: #fff;
+    position: absolute;
+    z-index: 99;
+    bottom: 85px;
+    left: 38px;
+}
+.links-lines2 {
+    height: 10px;
+    width: 100px;
+    background: #fff;
+    position: absolute;
+    z-index: 99;
+    bottom: 85px;
+    right: 633px;
+}
+.links-lines3{
+    width: 10px;
+    height: 100px;
+    background: #fff;
+    position: absolute;
+    z-index: 99;
+    bottom: 85px;
+    right: 633px;
+}
+.links-lines4{
+    height: 10px;
+    width: 100px;
+    background: #fff;
+    position: absolute;
+    z-index: 99;
+    top: 40px;
+    right: 633px;
+}

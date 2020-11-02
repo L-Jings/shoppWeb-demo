@@ -1,0 +1,146 @@
+.banner {
+    height: 892px;
+    width: 100%;
+    background-image: url(../img/home-1-slider/bg-1.jpg);
+    position: relative;
+}
+
+.layer1 {
+    width: 514px;
+    height: 272px;
+    position: absolute;
+    left: 427px;
+    top: 237px;
+    animation: show1 1s 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes show1 {
+    from {
+        top: 247px;
+        opacity: 0;
+    }
+
+    to {
+        top: 237px;
+        opacity: 1;
+    }
+}
+
+.layer2 {
+    width: 595px;
+    height: 695px;
+    position: absolute;
+    left: 1006px;
+    top: 88px;
+    animation: show2 1s 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes show2 {
+    from {
+        top: 88px;
+        opacity: 0;
+    }
+
+    to {
+        top: 77px;
+        opacity: 1;
+    }
+}
+
+.layer3 {
+    width: 888px;
+    position: absolute;
+    left: 475px;
+    top: -122px;
+    animation: show3 1s 3s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes show3 {
+    from {
+        top:-122px;
+        opacity: 0;
+    }
+    to {
+        top: -132px;
+        opacity: 1;
+    }
+}
+
+.layer4 {
+    width: 400px;
+    height: 190px;
+    position: absolute;
+    left: 1092px;
+    top: 423px;
+    opacity: 0;
+    animation: show4 1s 4s;
+    animation-fill-mode: forwards;
+}
+@keyframes show4 {
+    from {
+        top:423px;
+        opacity: 0;
+    }
+    to {
+        top:413px;
+        opacity: 1;
+    }
+}
+
+.ban-text {
+    font-size: 61px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    line-height: 61px;
+    position: absolute;
+    left: 380px;
+    top: 570px;
+    opacity: 0;
+    animation: text 1s 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes text {
+    from {
+        top:570px;
+        opacity: 0;
+    }
+    to {
+        top: 547px;
+        opacity: 1;
+    }
+}
+
+.ban-shop {
+    width: 120px;
+    height: 50px;
+    border: 2px solid #fff;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    left: 380px;
+    top: 645px;
+    opacity: 0;
+    animation: text2 1s 6s;
+    animation-fill-mode: forwards;
+}
+.ban-shop a {
+    color: rgb(255, 255, 255);
+}
+
+@keyframes text2 {
+    from {
+        top:645px;
+        opacity: 0;
+    }
+    to {
+        top:627px;
+        opacity: 1;
+    }
+}
